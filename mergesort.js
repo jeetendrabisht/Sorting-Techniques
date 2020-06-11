@@ -1,5 +1,5 @@
 /**
- * This function uses merge sort algorithm, is divide and conquerer algorithm where
+ * This function uses merge sort algorithm, is divide and conqueror algorithm where
  * @function mergeSort
  * @param {Array Object} array
  * @returns {Array Object} array

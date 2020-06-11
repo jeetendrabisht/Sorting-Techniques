@@ -22,11 +22,11 @@ Second :: for updating min index value
 we insert item by swap it with cuurent value
 
 ## Merge Sort
-Divide and Conquerer algorithm
+Divide and Conqueror Algorithm
 
 
 ## Quick Sort
-Using one of the divide and conqueror algorithm Quick Sort.
+Using one of the Divide and Conqueror algorithm Quick Sort.
 We have to choose any pivot element thorugh this we keep value less than to left side and greater than to right side 
 Using recursion will follow this until sorted 
 
