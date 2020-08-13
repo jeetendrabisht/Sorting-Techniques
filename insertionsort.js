@@ -1,6 +1,6 @@
 /**
  * This function uses insertion sort algorithm where 
- * we insert item by swap it with cuurent value
+ * we insert item by swap it with current value
  * @function insertionSort
  * @param {Array Object} array
  * @returns {Array Object} array
