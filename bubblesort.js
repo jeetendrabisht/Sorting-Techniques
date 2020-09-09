@@ -15,10 +15,11 @@ let bubbleSort = array => {
     const arrayLength = array.length;
     // flag to traverse the array
     let swapped;
+    let forLoopRan = 0;
     do {
         // initially and if condition become false do while loop stops
         swapped = false;
-        for(let i = 0 ; i < arrayLength ; i++) {
+        for(let i = 0 ; i < arrayLength - forLoopRan ; i++) {
             if( array[i] > array[i+1]) {
                 let temp = array[i];
                 array[i] = array[i + 1];
@@ -27,10 +28,12 @@ let bubbleSort = array => {
                 swapped = true;
             }
         }
+        // check number of times the for loop ran in one loop of do while
+        forLoopRan++;
     } while(swapped);
     return array;
 }
 console.log(bubbleSort([7,5,2,4,3,9])); //[2, 3, 4, 5, 7, 9]
 console.log(bubbleSort([9,7,5,4,3,1])); //[1, 3, 4, 5, 7, 9]
-console.log(bubbleSort([1,2,3,4,5,6])); //[1, 2, 3, 4, 5, 6]
+console.log(bubbleSort([6,5,4,3,2,1])); //[1, 2, 3, 4, 5, 6]
 
